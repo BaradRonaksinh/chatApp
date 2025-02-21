@@ -54,10 +54,10 @@ npm install
 #### 3. Set Up Environment Variables
 Create a `.env` file inside the `server` folder and add the following:
 ```
-PORT=5000
+PORT=5001
 MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_jwt_secret
-CLIENT_URL=http://localhost:3000
+CLIENT_URL=http://localhost:5173
 ```
 
 #### 4. Start the Server
